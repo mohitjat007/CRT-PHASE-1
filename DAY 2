@@ -52,5 +52,32 @@ int main (){
                 cout <<"Enter a valid age number";
             }else{
                 cout<<"Not Eligible for vote";
-            }
-        } return 0;
+            } return 0;
+        }
+// problem 8 
+// customer care 
+#include <iostream> 
+using namespace std; 
+ 
+ int main (){
+     int choice ;
+     cin >> choice; 
+     switch (choice){
+         case 1:
+         cout<<"Transferring call to the customer support...";
+         break;
+         case 2:
+         cout<<"Transferring call to billing and accounts..";
+         break;
+         case 3:
+         cout<<" connecting to techical help desk...";
+         case 4:
+         cout<<" connecting call to the agent...";
+         break;
+         default:
+         cout<<"invalid selection ,Enter a valid number...";
+         
+     }
+     return 0;
+     
+ }
