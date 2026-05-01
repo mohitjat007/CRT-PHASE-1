@@ -1,0 +1,163 @@
+// Area of Shapes
+// 1-- circle, 2--rectangle, 3-- triangle
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cin>> choice;
+    
+    if(choice == 1){
+        double radius;
+        cin >> radius;
+        cout << 3.14 * radius * radius << endl;
+    }else if(choice ==2){
+        double lenght,width;
+        cin >> lenght >> width;
+        cout << lenght*width << endl;
+    }else if (choice ==3){
+        double base,height;
+        cin>> base >> height;
+        cout << 0.5 * base * height << endl;
+    }else {
+        cout << "invalid Choice" << endl;
+    }
+    
+    return 0;
+    
+        
+    
+}// Area of Shapes
+// 1-- circle, 2--rectangle, 3-- triangle
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cin>> choice;
+    
+    if(choice == 1){
+        double radius;
+        cin >> radius;
+        cout << 3.14 * radius * radius << endl;
+    }else if(choice ==2){
+        double lenght,width;
+        cin >> lenght >> width;
+        cout << lenght*width << endl;
+    }else if (choice ==3){
+        double base,height;
+        cin>> base >> height;
+        cout << 0.5 * base * height << endl;
+    }else {
+        cout << "invalid Choice" << endl;
+    }
+    
+    return 0;
+    
+        
+    
+}
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    double celcius;
+    double fahrenhiet;
+    cin>>celcius;
+    fahrenhiet =(celcius*9.0/5.0) +32.0;
+    std::cout << fahrenhiet<<endl;
+
+    return 0;
+}
+
+
+//global variable
+int globalvariable=100;
+
+int main(){
+    //local variable
+    int userInput;
+    float result;
+    
+    cin>>userInput ;
+    result=(double)globalvariable/userInput;
+    
+    cout<<result<<endl;
+    return 0;
+    
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int side1,side2,side3;
+    cin >> side1 >> side2 >> side3;
+    
+    bool isEqui =(side1 >0) && (side1 == side2) && (side2 == side3);
+    cout<<isEqui <<endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    int b;
+    
+    cin>>a>>b;
+    
+    int temp=a;
+    a=b ;
+    b=temp;
+    
+    cout<< a <<"\n" << b << endl;
+    return 0;
+}
+
+// Area of Shapes
+// 1-- circle, 2--rectangle, 3-- triangle
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int choice;
+    cin>> choice;
+    
+    if(choice == 1){
+        double radius;
+        cin >> radius;
+        cout << 3.14 * radius * radius << endl;
+    }else if(choice ==2){
+        double lenght,width;
+        cin >> lenght >> width;
+        cout << lenght*width << endl;
+    }else if (choice ==3){
+        double base,height;
+        cin>> base >> height;
+        cout << 0.5 * base * height << endl;
+    }else {
+        cout << "invalid Choice" << endl;
+    }
+    
+    return 0;
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    int avg ;
+    int sum;
+    int result;
+    cin>>a>>b>>c;
+    sum =a+b+c;
+    result =sum/3;
+    cout<<sum <<"\n"<<result;
