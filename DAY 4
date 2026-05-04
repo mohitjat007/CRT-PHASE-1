@@ -1,0 +1,134 @@
+//Problem 1 
+//print i to 10 , in numbwr of lines 
+#include <iostream>
+using namespace std;
+int main (){
+    //number of times  to print the pattern
+    for ( int i = 1; i<=10; i++){
+        //this define what to print in the pattern 
+        for ( int j = 1; j<=10; j++){
+            cout<<J<<"  ";
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
+//Problem 2 
+//print i to 10 STARS , in numbwr of lines 
+#include <iostream>
+using namespace std;
+int main (){
+    //number of times  to print the pattern
+    for ( int i = 1; i<=10; i++){
+        //this define what to print in the pattern 
+        for ( int j = 1; j<=10; j++){
+            cout<<" * ";
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
+//problem 3 
+//print right angle tringle 
+#include <iostream>
+using namespace std;
+int main (){
+    int n;
+    cout <<"enter the value of n : ";
+    cin>>n;
+    //define me the number of time 
+    for(int i=1; i<=n; i++){
+        for(int j = 1; j<=i; j++){
+            cout <<"*";
+            
+        }
+        cout <<"\n";
+        
+    }
+    return 0;
+}
+//problem 4
+//print right angle in diffent angle 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout <<"enter the value of n ";
+    cin>>n;
+    //Number of times or number of row
+    for (int i =1 ; i<=n; i++){
+        for (int j = 1; j<=n-i; j++){
+            cout <<" ";
+            
+        } 
+        for(int k=1; k<=i; k++){
+            cout<<"*";
+        }
+        
+        cout<<"\n";
+    }
+    return 0;
+    
+}
+// Problem 5 
+// Print a Rectangle
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int row, col;
+    cin >> row;
+    cin >> col;
+    
+    for(int i = 1; i <= row; i++) {
+        for(int j = 1; j <= col; j++) {
+            cout <<"*";
+        }
+        cout <<"\n";
+    }
+}
+//problem 6 
+//print hollow square 
+#include <iostream>
+using namespace std;
+int main (){
+    for (int i =1; i<=5; i++){
+        for(int j =1; j<=5; j++){
+            cout<<" ";
+            if (i==1|| j ==1 || i==5 || j==5){
+                cout <<"*";
+            }else {
+                cout <<" ";
+            }
+        }
+        cout <<"\n";
+    }
+}
+//program 7 
+//print pramid shape 
+
+#include <iostream>
+using namespace std;
+
+int main (){
+    int n;
+    cin >> n;
+
+    for (int i = 1; i <= n; i++){
+        
+        // spaces
+        for (int j = n - i; j >= 1; j--){
+            cout << " ";
+        }
+
+        // stars
+        for (int k = 1; k <= i; k++){
+            cout << "* ";
+        }
+
+        cout << "\n";
+    }
+
+    return 0;
+}
